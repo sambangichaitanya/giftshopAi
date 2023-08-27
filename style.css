@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width:100%;
+    height:7vw;
+    position: fixed;
+    z-index:5;
+    margin-right:0;
+    display: flex;
+    background-color: white;
+    margin-top:0;
+}
+
+
+.nav-bar{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-bar-left{
+    display:flex;
+}
+
+.nav-links{
+    align-items: center;
+    margin-left: 5vw;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo{
+    max-height: 7vw;
+}
+
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.nav-btn{
+    align-items: center;
+    display: flex;
+    float: right;
+    position: relative;
+}
+.button{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 2vw 6vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color:orange;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.split{
+    z-index: 4;
+    max-width: 580px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 65px;
+    padding-bottom: 0;
+    display: flex;
+    position: absolute;
+}
+
+
+.h1{
+    color: #c62ed1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Ubuntu, Helvetica, sans-serif;
+    font-size: 4vw;
+    line-height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-1{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+    position: absolute;
+    height:600px;
+    background: url('giftimage.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    background-color: rgb(225, 228, 233);
+}
+
+.h1-span{
+    color:aqua;
+}
+
+.word {
+    color: red;
+  }
+
+.split-1{
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3{
+    font-size: 20px;
+}
+
+h3{
+    font-size:2vw;
+}
+.split-2{
+    margin-top:150px;
+    color: #ececec;
+    line-height: 2vw;
+    font-size: 1.5vw;
+}
+
+.container-2{
+    margin-top:700px;
+    height:560px;
+    position: relative;
+}
+
+.form-class{
+    width:100%;
+    font-size: 2vw;
+    padding:15px 32px;
+}
+
+.form-label{
+    padding:1.5vw;
+}
+.form-input{
+    width:100%;
+    padding:0.7vw;
+    border-radius:5px;
+}
+
+.form-btn{
+    width:100%;
+    background-color: #c62ed1;
+}
+
+.form-h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-c1{
+    color:#c62ed1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:25%;
+}
+.about-c2{
+    color:#f40909;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.0005%;
+    padding:5vw;
+    width:100%;
+    font-size: 1.77vw;
+}
+
+
+table, th, td {
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(28, 86, 202);
+}
+
+.rate {
+    float: left;
+    height: 5vw;
+    padding: 0 1vw;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:2vw;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.container-13{
+    background-color: rgb(143, 174, 201);
+    width:100%;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.strike-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:5vw;
+    border:2px solid white;
+}
+.p21{
+    width:50%;
+    height: 10vw;
+}
+
+.button1{
+    cursor: pointer;
+    width:100%;
+    height:2.5rem;
+    background-color: #c62ed1;
+}
+
+.p22{
+    padding:10px;
+    margin:2px;
+    border: 2px solid khaki;
+}
